@@ -1,0 +1,84 @@
+body{
+  background-image: url("/imagenes/space_image.jpg");
+  background-size: cover;
+}
+
+#pradera{
+  width: 100%;
+  height: 540px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#h1{
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 40px;
+  animation-name: rainbow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes rainbow {
+  0% { color: red; }
+  14.2857143% { color: orange; }
+  28.5714286% { color: yellow; }
+  42.8571429% { color: green; }
+  57.1428572% { color: blue; }
+  71.4285715% { color: indigo; }
+  85.7142858% { color: violet; }
+  100% { color: violet; }
+}
+
+#h3{
+  color: white;
+}
+
+#rosa{
+  position: relative;
+  width: 100px;
+  height: 200px;
+  top: 361px;
+  left: 265px;
+}
+#rosa_azul{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#mariposa{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: 310px;
+  top: 127px; /*127*/
+}
+#mariposa_verde{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  animation-name: vuelo;
+  animation-duration: 10s;
+}
+@keyframes vuelo {
+  0% { left: 0px; top: 0px; }
+  15% { left: 150px; top: -100px; }
+  30% { left: 300px; top: 0px; }
+  45% { left: 450px; top: -150px; }
+  60% { left: 600px; top: -200px; }
+  75% { left: 750px; top: -300px; }
+  90% { left: 900px; top: -150px; }
+  100% { left: 1050px; top: -200px; }
+}
+
+#unicornio{
+  position: relative;
+  width: 200px;
+  height: 180px;
+  left: 800px;
+}
+#unicornio_{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
