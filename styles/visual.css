@@ -10,12 +10,15 @@ body{
   bottom: 0px;
   left: 0px;
 }
-
+#header1{
+  position: relative;
+  bottom: 30px;
+}
 #h1{
   font-family: Copperplate, Papyrus, fantasy;
-  font-size: 40px;
+  font-size: 50px;
   animation-name: rainbow;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 @keyframes rainbow {
@@ -26,18 +29,23 @@ body{
   57.1428572% { color: blue; }
   71.4285715% { color: indigo; }
   85.7142858% { color: violet; }
-  100% { color: violet; }
+  100% { color:red; }
 }
 
-#h3{
+#header2{
+  position: relative;
+  bottom: 60px;
+}
+#h2{
   color: white;
+  font-family:monospace;
 }
 
 #rosa{
   position: relative;
   width: 100px;
   height: 200px;
-  top: 361px;
+  top: 187px;
   left: 265px;
 }
 #rosa_azul{
@@ -51,7 +59,7 @@ body{
   width: 50px;
   height: 50px;
   left: 310px;
-  top: 127px; /*127*/
+  bottom: 46px;
 }
 #mariposa_verde{
   position: relative;
@@ -65,7 +73,7 @@ body{
   15% { left: 150px; top: -100px; }
   30% { left: 300px; top: 0px; }
   45% { left: 450px; top: -150px; }
-  60% { left: 600px; top: -200px; }
+  60% { left: 600px; top: -180px; }
   75% { left: 750px; top: -300px; }
   90% { left: 900px; top: -150px; }
   100% { left: 1050px; top: -200px; }
@@ -75,7 +83,8 @@ body{
   position: relative;
   width: 200px;
   height: 180px;
-  left: 800px;
+  left: 1000px;
+  bottom: 150px;
 }
 #unicornio_{
   position: relative;
